@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+
+    font-family: "Poppins", sans-serif;
+    
+
+}
+
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 200px;
+
+}
+
+:root{
+
+    --primary-color: #20c997;
+    --para-color: #808e9b;
+    --secondary-color: black ;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+  
+
+}
+
+
+p{
+
+    color: var(--para-color);
+
+}
+
+                /* ***************Home Page Starts****************** */
+
+
+.header-att {
+
+    padding: 0px 20px !important;
+    padding-top: 4px !important;
+   
+
+}
+
+.header-att:hover{
+
+    color:var(--primary-color) !important;
+
+}
+
+.header .navbar-brand{
+
+    padding: 0px !important;
+
+}
+
+.header .navbar-brand:hover{
+
+
+    color: var(--primary-color) !important;
+
+}
+
+
+
+.banner .right-wrapper img{
+
+
+    width: 600px;
+    
+
+}
+
+
+.banner .right-wrapper{
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+}
+
+.banner .left-wrapper h1{
+
+
+    font-size: 3em;
+    margin-bottom: 20px;
+    
+
+}
+
+.banner .left-wrapper h2{
+
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+
+
+}
+
+.banner .left-wrapper p {
+
+
+    font-size: 1em;
+    margin-bottom: 20px;
+
+}
+
+
+.banner .left-wrapper a{
+
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+button {
+
+
+    background-color: var(--primary-color) !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    color: black !important;
+
+
+}
+
+button:hover{
+
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+
+
+}
+
+.banner .left-wrapper a:hover{
+
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+
+}
+
+
+
+
+.blogs .upper-wrapper h1{
+
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--para-color);
+
+
+}
+
+
+/* isko end me hata dena  */
+
+.blogs .lower-wrapper{
+
+    margin-bottom: 100px;
+
+}
+
+
+                /* ***************Home Page End****************** */
+
+
+                /* ***************Signup Page Start****************** */
+
+.bg-color{
+
+
+    background-color: rgb(241, 240, 240);
+
+
+}
+
+.signup .box-wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}       
+
+.signup .box-wrapper form{
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px 60px;
+    border-radius: 10px;
+    width: 600px;
+    /* width: 50%; */
+    height: 400px;
+}
+
+.signup .box-wrapper h1{
+
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.signup .box-wrapper form label{
+
+    font-size: 1.1em !important;
+    
+}
+
+.signup .box-wrapper form input{
+
+    border: 1px solid var(--para-color);
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px !important;
+
+
+
+}
+
+
+.signup .box-wrapper form a:hover{
+
+    color: var(--primary-color) !important;
+
+}
+
+
+
+/* ***************Signup Page end****************** */
+
+
+/* ***************dashboard Page Start****************** */
+
+/* .d-uploadblog{
+
+    margin: 0 auto;
+
+} */
+
+.d-uploadblog h2{
+
+    text-align: center !important;
+    margin-bottom: 80px !important;
+
+
+    
+}
+
+.d-uploadblog .upload-blog-form{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 500px; */
+    /* width: 100%; */
+    max-width: 1000px;
+    max-width: 500px;
+    margin: 0 auto;
+
+
+}
+
+.upload-blog-form input {
+
+    border: 1px solid var(--para-color);
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px !important;
+     
+}
+
+
+.upload-blog-form label {
+
+    font-size: 1.1em !important;
+
+     
+}
+
+/* --------------------footer--------------- */
+
+.footer p {
+
+    text-align: center;
+
+}
+
+.footer #currentyear {
+
+    color: var(--primary-color);
+
+}
+
+
+
+/* LOader ========================  */
+
+/* HTML: <div class="loader"></div> */
+.loader{
+    margin: 0 auto ;
+    width: 40px;
+    aspect-ratio: 1;
+    --c:no-repeat linear-gradient(#000 0 0);
+    background: 
+      var(--c) 0    0,
+      var(--c) 0    100%, 
+      var(--c) 50%  0,  
+      var(--c) 50%  100%, 
+      var(--c) 100% 0, 
+      var(--c) 100% 100%;
+    background-size: 8px 50%;
+    animation: l7-0 1s infinite;
+    position: relative;
+    overflow: hidden;
+  }
+  .loader:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #000;
+    top: calc(50% - 4px);
+    left: -8px;
+    animation: inherit;
+    animation-name: l7-1;
+  }
+  
+  @keyframes l7-0 {
+   16.67% {background-size:8px 30%, 8px 30%, 8px 50%, 8px 50%, 8px 50%, 8px 50%}
+   33.33% {background-size:8px 30%, 8px 30%, 8px 30%, 8px 30%, 8px 50%, 8px 50%}
+   50%    {background-size:8px 30%, 8px 30%, 8px 30%, 8px 30%, 8px 30%, 8px 30%}
+   66.67% {background-size:8px 50%, 8px 50%, 8px 30%, 8px 30%, 8px 30%, 8px 30%}
+   83.33% {background-size:8px 50%, 8px 50%, 8px 50%, 8px 50%, 8px 30%, 8px 30%}
+  }
+  
+  @keyframes l7-1 {
+   20%  {left:0px}
+   40%  {left:calc(50%  - 4px)}
+   60%  {left:calc(100% - 8px)}
+   80%,
+   100% {left:100%}
+  }
+
+
+
+
+
+  /* -------------------------image loader ----------------------  */
+  /* HTML: <div class="loader"></div> */
+.loader1 {
+    width: 40px;
+    margin: 0 auto;
+    aspect-ratio: 1;
+    --c: linear-gradient(var(--primary-color) 0 0);
+    --r1: radial-gradient(farthest-side at bottom,var(--primary-color) 93%,#0000);
+    --r2: radial-gradient(farthest-side at top   ,var(--primary-color) 93%,#0000);
+    background: 
+      var(--c) ,var(--r1),var(--r2),
+      var(--c) ,var(--r1),var(--r2),
+      var(--c) ,var(--r1),var(--r2);
+    background-repeat: no-repeat;
+    animation: l1 1s infinite alternate;
+  }
+  @keyframes l1 {
+    0%,10% {
+      background-size: 8px 0,8px 4px,8px 4px;
+      background-position: 0 50%,0 calc(50% - 2px),0 calc(50% + 2px),50% 50%,50% calc(50% - 2px),50% calc(50% + 2px),100% 50%,100% calc(50% - 2px),100% calc(50% + 2px);
+   }
+   90%,100% {
+      background-size: 8px 100%,8px 4px, 8px 4px;
+      background-position: 0 50%,0 -2px,0 calc(100% + 2px),50% 50%,50% -2px,50% calc(100% + 2px),100% 50%,100% -2px,100% calc(100% + 2px);
+   }
+  }
+
+
+
+  #fileSize{
+
+    color: red;
+  }
+
+
+  .Container{
+
+    width: 90%;
+    /* height: 100vh; */
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+
+
+  .Container img{
+
+   width: 100%;
+   height: 500px;
+   object-fit: contain;
+   object-position: center;
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  }
+
+  .Container h1{
+
+    text-align: left;
+    font-size: 2.2em;
+
+  }
+
+  .Container p{
+
+    text-align: left;
+
+  }
+
+
+ 
+
+
+
+  @media screen and (max-width: 700px) {
+   
+    .signup .box-wrapper form{
+
+        
+        padding: 10px 10px;
+        border-radius: 10px;
+        /* width: 600px; */
+        width: 100%;
+        /* height: 400px; */
+    }
+
+
+
+
+  }
+
